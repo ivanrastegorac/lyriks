@@ -1,7 +1,9 @@
 import { genres } from '../assets/constants.js';
 import { SongCard } from '../components';
+import { useGetTopChartsQuery } from '../redux/services/shazamCore.js';
 
 const Discover = () => {
+  const { data, isFetching, error } = useGetTopChartsQuery();
   const genreTitle = 'Pop';
 
   return (
