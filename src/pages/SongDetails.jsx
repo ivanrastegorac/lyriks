@@ -19,6 +19,7 @@ const SongDetails = () => {
     isFetching: isFetchinRelatedSongs,
     error,
   } = useGetSongRelatedQuery({ songid });
+  // eslint-disable-next-line operator-linebreak
   const { data: songData, isFetching: isFetchingSongDetails } =
     useGetSongDetailsQuery({ songid });
 
