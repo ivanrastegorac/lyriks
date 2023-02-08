@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable nonblock-statement-body-position */
 /* eslint-disable react/jsx-tag-spacing */
 /* eslint-disable comma-dangle */
